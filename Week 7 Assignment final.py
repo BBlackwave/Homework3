@@ -15,12 +15,12 @@ countf = 1
 
 while True:
     travelers = input("How many people are paying for the trip: \n ")
-    if (travelers.isdigit())== True:
+    if (travelers.isdigit()) is True:
         traveler = int(travelers)
         print("Thanks for enterting the amount of travelers")
         break        
                                   
-    if (travelers.isdigit()) == False:
+    if (travelers.isdigit()) is False:
         print("You did not enter an approperiate value try again")
 
 # user input for the amount of days on this trip
@@ -29,12 +29,12 @@ while True:
 
 while True:
     day = input("How many days are on this trip: \n")
-    if (day.isdigit())== True:
+    if (day.isdigit()) is True:
         days = int(day)
         print("Thanks for enterting the amount of days")
         break        
                                   
-    if (day.isdigit()) == False:
+    if (day.isdigit()) is False:
         print("You did not enter an approperiate value try again")   
  
                        
